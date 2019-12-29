@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   color: black;
 }
 
@@ -33,7 +33,6 @@ p {
   border: none;
   margin-right: 15px;
   margin-left: 15px;
-  font-family: Helvetica;
   clear: right;
 }
 
@@ -41,11 +40,11 @@ p.title {
   margin: -2px -2px 15px 0;
   font-size: 1.25em;
   font-weight: 800;
-  float: right;
   width: 120px;
   text-align: center;
   border: 2px solid black;
   padding: 2px 0px 2px 0px;
+  float: right;
 }
 
 #chicken {
@@ -92,6 +91,7 @@ p.title {
 /********** Small devices **********/
 @media (max-width: 767px) {
   div.content {
+    /* on small screen, boxes have largers horizontal margins */
     margin: 24px 36px 24px 36px;
   }
 }
